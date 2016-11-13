@@ -4,10 +4,43 @@
     android:id="@+id/login_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="kr.co.skycadi.ourhomesecurityoffice.LoginActivity">
+    android:background="@drawable/bg_login"
+    tools:context="kr.co.skycadi.ourhomesecurityoffice.activity.LoginActivity">
 
+    <!-- 아이디를 입력하는 EditText -->
+
+    <EditText
+        android:id="@+id/et_login_enter_id"
+        android:layout_width="265dp"
+        android:layout_height="37.67dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/img_login_enter_id_line"
+        android:textColor="#efeff0"
+        android:paddingLeft="25dp"
+        android:singleLine="true"/>
+
+    <!-- 비밀번호를 입력하는 EditText -->
+
+    <EditText
+        android:id="@+id/et_login_enter_pw"
+        android:layout_width="265dp"
+        android:layout_height="37.67dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="361.67dp"
+        android:background="@drawable/img_login_enter_pw_line"
+        android:textColor="#efeff0"
+        android:paddingLeft="35dp"
+        android:inputType="textPassword"
+        android:singleLine="true"/>
+    
+    <!-- 로그인 기능을 수행하는 버튼 -->
+    
+    <Button
+        android:id="@+id/btn_login_login"
+        android:layout_width="133dp"
+        android:layout_height="43.33dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="403.67dp"
+        android:background="@drawable/btn_login_login_click"/>
 </RelativeLayout>

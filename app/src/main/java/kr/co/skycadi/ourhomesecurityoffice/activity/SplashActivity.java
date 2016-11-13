@@ -1,4 +1,4 @@
-package kr.co.skycadi.ourhomesecurityoffice;
+package kr.co.skycadi.ourhomesecurityoffice.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -9,10 +9,10 @@ import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Handler;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
-import android.widget.Toast;
+
+import kr.co.skycadi.ourhomesecurityoffice.R;
 
 // 스플래시 화면.
 public class SplashActivity extends Activity
