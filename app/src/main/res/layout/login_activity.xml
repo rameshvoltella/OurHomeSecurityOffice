@@ -52,5 +52,5 @@
         android:layout_height="43.33dp"
         android:layout_marginLeft="180dp"
         android:layout_marginTop="403.67dp"
-        android:background="@drawable/btn_login_login_click"/>
+        android:background="@drawable/btn_login_join_click"/>
 </RelativeLayout>

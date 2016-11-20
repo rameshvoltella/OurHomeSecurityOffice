@@ -25,6 +25,7 @@ public class LoginActivity extends Activity
     private String InputLoginID; // EditText로 입력 받은 로그인 아이디.
     private String InputLoginPW; // EditText로 입력 받은 로그인 비밀번호.
     private Button btn_Login; // 로그인 버튼.
+    private Button btn_Join; // 회원가입 버튼.
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -40,6 +41,7 @@ public class LoginActivity extends Activity
         et_LoginID = (EditText)findViewById(R.id.et_login_enter_id); // 아이디를 입력하는 EditText
         et_LoginPW = (EditText)findViewById(R.id.et_login_enter_pw); // 비밀번호를 입력하는 EditText
         btn_Login = (Button)findViewById(R.id.btn_login_login); // 로그인 버튼
+        btn_Join = (Button)findViewById(R.id.btn_login_join); // 회원가입 버튼
 
         // 로그인 버튼을 눌렀을 때의 처리.
         btn_Login.setOnClickListener(new View.OnClickListener()
