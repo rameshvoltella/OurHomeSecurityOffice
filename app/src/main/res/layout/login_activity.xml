@@ -43,4 +43,14 @@
         android:layout_marginLeft="47dp"
         android:layout_marginTop="403.67dp"
         android:background="@drawable/btn_login_login_click"/>
+
+    <!-- 회원가입 기능을 수행하는 버튼 -->
+
+    <Button
+        android:id="@+id/btn_login_join"
+        android:layout_width="133dp"
+        android:layout_height="43.33dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="403.67dp"
+        android:background="@drawable/btn_login_login_click"/>
 </RelativeLayout>
