@@ -69,6 +69,19 @@ public class LoginActivity extends Activity
                 }
             }
         });
+
+        // 회원가입 버튼을 눌렀을 때의 처리.
+        btn_Join.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                // 회원가입 초기 화면으로 전환
+                Intent LoginToJoin = new Intent(LoginActivity.this, JoinIDPWActivity.class);
+                startActivity(LoginToJoin);
+                finish();
+            }
+        });
     }
 
     // 뒤로 가기 버튼 눌렀을 때 핸들러 동작 수행
